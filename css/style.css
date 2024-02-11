@@ -1,0 +1,497 @@
+/*Start-Header*/
+#Main-Header .navbar {
+    margin-bottom: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+#Main-Header .navbar-brand{
+    padding: 12px 15px;
+}
+
+#Main-Header .navbar-default {
+    background-color: #f1c40f;
+    border-color: #f1c40f;
+}
+
+#Main-Header .navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #34495e;
+}
+
+#Main-Header .dropdown-menu {
+    background-color: #f1c40f;
+    border-color: #2d3436;
+}
+
+#Main-Header .navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    background-color: #2d3436 !important;
+    color: #ecf0f1 !important;
+}
+
+#Main-Header .portal {
+    border-left: 3px solid #ecf0f1;
+    border-right: 3px solid #ecf0f1;
+    background-color: #f1c40f;
+}
+
+#Main-Header .portal:hover {
+    transition: 0.8s;
+    border-left: 3px solid #d7b911;
+    border-right: 3px solid #d7b911;
+    background-color: #ecf0f1;
+}
+
+/*End-Header*/
+
+/*Start-Content*/
+#Main-Content {
+    width: 100%;
+    height: auto;
+    font-family: 'oswald' sans-serif;
+    background-color: rgba(52, 73, 94, 0.9);
+    background-image: url('../imgs/admission.png');
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
+#Main-Content h2 {
+    font-family: 'Oswald', sans-serif;
+    color: #f1c40f;
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+    margin-bottom: 30px;
+}
+
+#Main-Content h1 {
+    color: #f1c40f;
+    font-family: 'Oswald' sans-serif;
+
+}
+
+#Main-Content p {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+
+#Main-Content .btn-default {
+    background-color: #f1c40f;
+    border-radius: 0px;
+    color: #fff;
+    transition: 0.8s all ease-out;
+}
+/*
+#Main-Content .btn-default:hover{
+    border-radius: 50px;
+    transition: 0.8s all ease-out;
+    background-color: #931523;
+}
+*/
+
+#Main-Content #accredidation img {
+    cursor: pointer;
+}
+
+#Main-Content #Team {
+    background-color: #bfbbb8;
+}
+
+#Main-Content #Team div>img {
+    box-shadow: 6px 2px #931523;
+}
+
+#Main-Content #Team h3 {
+    font-weight: bold;
+}
+
+#Main-Content #Team p {
+    color: #2d3436;
+    font-weight: 600;
+}
+
+#Main-Content #Teachers a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/*End-Content*/
+
+/*Start-Footer*/
+#Main-Footer {
+    width: 100%;
+    height: auto;
+    font-family: 'Oswald', sans-serif;
+    background-color: #2d3436;
+}
+
+#Main-Footer #Contact {
+    padding: 50px;
+}
+
+#Main-Footer p {
+    font-family: 'Oswald', sans-serif;
+    color: #ecf0f1;
+    font-size: 18px;
+}
+
+#Main-Footer h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #ecf0f1;
+    font-weight: bold;
+}
+
+#Main-Footer .footer_ul_2 {
+    display: inline !important;
+    padding-left: 0%;
+}
+
+#Main-Footer .footer_ul_2 li {
+    list-style-type: none;
+    margin-right: 20px;
+    display: inline !important;
+}
+
+#Main-Footer .footer_ul {
+    padding-left: 0px;
+    display: inline !important;
+}
+
+#Main-Footer .footer_ul li {
+    list-style-type: none;
+    margin-right: 3px;
+    display: inline !important;
+}
+
+#Main-Footer .copyright {
+    background-color: #2d3436;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: small;
+    font-weight: lighter;
+}
+
+#Main-Footer .footer_ul_2 {
+    color: #ecf0f1;
+}
+
+#Main-Footer .footer_ul_2 span {
+    margin-left: 3px;
+
+}
+
+#Main-Footer p.xy {
+    position: fixed !important;
+    z-index: 999 !important;
+    bottom: 0;
+    display: block !important;
+    right: 10px !important;
+}
+
+#Main-Footer p.xy a {
+    cursor: pointer !important;
+}
+
+#Main-Footer p.xy img:hover,
+#Main-Footer p.xy img:focus,
+#Main-Footer p.xy img:active {
+    background: #f1c40f !important;
+    border-radius: 70%;
+    transition: 0.4s ease-in;
+    width: 60px;
+    height: 60px;
+    outline: 4px solid #2d3436;
+    cursor: pointer;
+}
+
+/*End-Footer*/
+/*Start-Slider*/
+.carousel-caption {
+    top: 400px;
+    bottom: 0px;
+}
+
+.carousel-caption h1 {
+    color: #2d3436;
+    background: #fff;
+    opacity: 0.8;
+    font-weight: bold;
+
+}
+
+/*End-Slider*/
+/*Start-About*/
+#Main-About {
+    background-color: rgba(52, 73, 94, 0.9);
+    width: 100%;
+    height: auto;
+    font-family: 'Oswald', sans-serif;
+    background-image: url('../imgs/admission.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Main-About p {
+    color: #ecf0f1;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+#Main-About h1 {
+    color: #ecf0f1;
+    font-weight: bold;
+
+}
+#Main-About h2{
+    background-color: rgba(52, 73, 94, 0.9);
+    color: #ffffff;
+}
+
+#Main-About #About-img {
+    background-image: url('../imgs/12.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 800px;
+}
+
+
+#Main-Footer .copyright {
+    margin-bottom: 0px;
+}
+
+
+/*End-About*/
+/*Start-Events*/
+#Main-Events {
+    width: 100%;
+    height: auto;
+    background-color: rgba(52, 73, 94, 0.9);
+    font-family: 'oswald' sans-serif;
+    background-image: url('../imgs/admission.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Main-Events a {
+    font-weight: bold;
+}
+
+#Main-Events .thumbnail {
+    background-color: #f1c40f;
+}
+
+#Main-Events .thumbnail:hover {
+    background-color: #2d3436;
+    transition: 0.8s ease-in-out;
+    color: #ffffff;
+}
+
+#Main-Events .caption:hover {
+    transition: 0.8s ease-in-out;
+    text-decoration: none;
+    background-color: #2d3436;
+    color: #ffffff;
+}
+
+#Main-Events .caption a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#Main-Events .caption a:hover {
+    transition: 0.8s ease-in-out;
+    color: #f1c40f;
+    text-decoration: none !important;
+}
+
+#Main-Events a[class="btn btn-default btn-block"] {
+    background-color: #2d3436 !important;
+}
+
+#Main-Events h1 {
+    color: #ffffff;
+}
+
+/*End-Events*/
+/*Start-Education*/
+#Main-Education {
+    font-family: 'oswald' sans-serif;
+    background-color: rgba(52, 73, 94, 0.9);
+    background-image: url('../imgs/admission.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Main-Education p {
+    font-family: 'oswald' sans-serif;
+    font-size: medium;
+    color: #ecf0f1;
+
+}
+
+#Main-Education h2 {
+    font-family: 'oswald' sans-serif;
+    font-weight: bold;
+    color: #ecf0f1;
+}
+
+#Main-Education a {
+    font-weight: bold;
+}
+
+#Main-Education .btn-default {
+    border-radius: 0px;
+    background-color: #f1c40f;
+    margin-left: 600px;
+    margin-bottom: 20px;
+    transition: 0.8s all ease-out;
+}
+
+#Main-Education .btn-default:hover{
+    color: #ffffff;
+}
+
+/*End-Education*/
+
+/*Start-Contact*/
+#Main-Contact {
+    width: 100%;
+    height: auto;
+    background-image: url('../imgs/08.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Team {
+    color:
+        #fff !important;
+}
+
+.Team li {
+    list-style-type: none;
+}
+
+#Main-Contact a {
+    border-radius: 0;
+    transition: 0.8s all ease-out;
+    background-color: #f1c40f;
+    border-color: #f1c40f;
+}
+/*
+#Main-Contact a:hover{
+    border-radius: 50px;
+    transition: 0.8s all ease-out;
+    background-color: #931523;
+    color: #ffffff;
+}
+*/
+#Main-Contact .form-control {
+    border-radius: 0%;
+}
+
+.text_hover:hover {
+    transition: 0.4s ease-in-out;
+    color: #ecf0f1 !important;
+
+}
+
+#Main-Footer .Team h4 {
+    font-weight: bold;
+}
+
+/*End-Contact*/
+
+/*Start-Apply*/
+#Main-Apply {
+    background-color: rgba(52, 73, 94, 0.9);
+    background-image: url('../imgs/admission.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Main-Apply h1 {
+    color: #ffffff;
+}
+
+#Main-Apply legend {
+    color: #ffffff;
+}
+
+#Main-Apply label {
+    color: #ffffff;
+}
+
+#button-danger {
+    border-radius: 0%;
+}
+
+#Main-Apply .form-control {
+    border-radius: 0;
+}
+
+#Main-Login .form-control {
+
+    color: #ffffff;
+    background-color: #2d3436;
+    border: 1px solid #34495e;
+    border-radius: 0px;
+}
+
+#Main-Login .form-control::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+/*End-Login*/
+
+/*Start-Login*/
+#Main-Login a {
+    border-radius: 0;
+}
+
+/*End-Login*/
+
+/*Start-Register*/
+#Main-Register a {
+    border-radius: 0;
+}
+
+#Main-Register label {
+    color: #2d3436
+}
+
+#Main-Register input {
+    background-color: #34495e
+}
+
+#Main-Register .form-control {
+
+    color: #ffffff;
+    background-color: #2d3436;
+    border: 1px solid #34495e;
+    border-radius: 0px;
+}
+
+#Main-Register .form-control::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+
+/*End-Register*/
+/*Start-Forget*/
+#Main-Forget a {
+    border-radius: 0;
+}
+
+#Main-Forget input {
+    border-radius: 0;
+}
+
+/*End-Forget*/

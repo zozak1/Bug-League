@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission | To NCES American School</title>
+    <link rel="icon" type="image/x-icon" href="./imgs/favicon.png">
+    <link href="./css/animate.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <script src="./js/jquery-3.7.1.js"></script>
+    <script src="./js/bootstrap.js"></script>
+</head>
+
+<body>
+    <!--Start-Header-->
+    <header id="Main-Header">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="./index.html"><img width="30" height="30" src="./imgs/favicon.png"
+                            alt="Logo"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="./index.html">Home<span class="sr-only">(current)</span></a></li>
+                        <li class="active"><a href="./education.html">Education</a></li>
+                        <li><a href="./events.html">Events</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="https://lms.nces.edu.eg/" class="portal">E-Portal</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-user
+                "></span> Account</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="./login.html">Login</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="./register.html">Register</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--End-Header-->
+    <!--Student Application form-->
+    <section id="Main-Apply">
+        <div class="container-fluid">
+            <h1 class="text-center">Student's Addmission</h1>
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <form>
+                        <fieldset>
+                            <legend>Student Information</legend>
+                            <div class="form-group">
+                                <label for="Division">Division</label>
+                                <select id="division" class="form-control" name="Division">
+                                    <option value="British">British</option>
+                                    <option value="American">American</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="fname">Stage</label>
+                                <select id="country" class="form-control" name="grad">
+                                    <option value="australia">PRE-KG</option>
+                                    <option value="canada">FS / KG 1</option>
+                                    <option value="usa">FS / KG 2</option>
+                                    <option value="usa">Year / Grade 1</option>
+                                    <option value="usa">Year / Grade 2</option>
+                                    <option value="usa">Year / Grade 3</option>
+                                    <option value="usa">Year / Grade 4</option>
+                                    <option value="usa">Year / Grade 5</option>
+                                    <option value="usa">Year / Grade 6</option>
+                                    <option value="usa">Year / Grade 7</option>
+                                    <option value="usa">Year / Grade 8</option>
+                                    <option value="usa">Year / Grade 9</option>
+                                    <option value="usa">Year / Grade 10</option>
+                                    <option value="usa">Year / Grade 11</option>
+                                    <option value="usa">Year / Grade 12</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Student Name</label>
+                                <input type="text" class="form-control" id="lname" name="studentname"
+                                    placeholder="Your full name.." required="" pattern="[a-z]{1,100}"
+                                    title="student name should not be more than 100 letters">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Date of Birth</label>
+                                <input type="text" class="form-control" id="lname" name="dateofbirth"
+                                    placeholder="D/M/Y" required="" pattern="\d{1,2}/\d{1,2}/\d{4}">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Nationality</label>
+                                <input type="text" class="form-control" id="lname" name="nationality"
+                                    placeholder="Your Nationality.." required="">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Gender</label>
+                                <select id="country" class="form-control" name="gender">
+                                    <option value="boy">Boy</option>
+                                    <option value="girl">Girl</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Religion</label>
+                                <select id="country" class="form-control" name="religion">
+                                    <option value="australia">Muslim</option>
+                                    <option value="canada">Christian</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Previous School</label>
+                                <input type="text" class="form-control" id="lname" name="PreviousSchool"
+                                    placeholder="Your Previous School.." required="">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Previous Class</label>
+                                <input type="text" class="form-control" id="lname" name="PreviousClass"
+                                    placeholder="Your Previous Class.." required="">
+                            </div>
+                            <div class="form-group">
+                                <label for="country">Second Language</label>
+                                <select id="country" class="form-control" name="SecondLanguage">
+                                    <option value="australia">German</option>
+                                    <option value="canada">French</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="bus"> Bus Transportation Required</label>
+                                <select id="Bus" class="form-control" name="BusTransportation">
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Area</label>
+                                <input type="text" class="form-control" id="lname" name="area" placeholder="Your Area.."
+                                    required="">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Full Address In Details</label>
+                                <input type="text" class="form-control" id="lname" name="Address"
+                                    placeholder="Your Address.." required="">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Does your child have any medical concerns / allergies? If yes, please
+                                    mention.</label>
+                                <input type="text" class="form-control" id="lname" name="medicalconcerns"
+                                    placeholder="Medical Concerns..">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Message</label>
+                                <textarea id="subject" name="Message" placeholder="Write something.."
+                                    style="width: 340px; height:160px"></textarea>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <form>
+                        <fieldset>
+                            <legend>Father's Information</legend>
+                            <div class="form-group">
+                                <label for="lname">Father Name</label>
+                                <input type="text" class="form-control" id="lname" name="fathername"
+                                    placeholder="Your Father full name.." required="" pattern="[a-z]{1,100}"
+                                    title="father name should not be more than 100 letters">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Qualification</label>
+                                <input type="text" class="form-control" id="lname" name="Qualification"
+                                    placeholder="Your Qualification.." required="" pattern="[a-z]{1,100}"
+                                    title="Qualification should not be more than 100 letters">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Occupation</label>
+                                <input type="text" class="form-control" id="lname" name="Occupation"
+                                    placeholder="Your Occupation.." required="" pattern="[a-z]{1,100}"
+                                    title="Occupation should not be more than 100 letters">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Phone Number</label>
+                                <input type="text" class="form-control" id="lname" name="PhoneNumber"
+                                    placeholder="Your Phone Number.." required="" pattern="[0][0-9]{20}"
+                                    title="Phone Number should include numbers only and not more than 20 number">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Mobile Number</label>
+                                <input type="text" class="form-control" id="lname" name="MobileNumber"
+                                    placeholder="Your Mobile Number.." required="" pattern="[0][0-9]{20}"
+                                    title="Mobile Number should include numbers only and not more than 20 number">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Email</label>
+                                <input id="email" class="form-control" type="text" name="femail"
+                                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required=""
+                                    placeholder="Enter you Email">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <form>
+                        <fieldset>
+                            <legend>Mother's Information</legend>
+                            <div class="form-group">
+
+                                <label for="lname">Mother Name</label>
+                                <input type="text" class="form-control" id="lname" name="Mothername"
+                                    placeholder="Your Mother full name.." required="" pattern="[a-z]{1,100}"
+                                    title="mother name should not be more than 100 letters">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Qualification</label>
+                                <input type="text" class="form-control" id="lname" name="mQualification"
+                                    placeholder="Your Qualification.." required="" pattern="[a-z]{1,100}"
+                                    title="Qualification should not be more than 100 letters">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Occupation</label>
+                                <input type="text" class="form-control" id="lname" name="mOccupation"
+                                    placeholder="Your Occupation.." required="" pattern="[a-z]{1,100}"
+                                    title="Occupation should not be more than 100 letters">
+                            </div>
+                            <div class="form-group"> <label for="lname">Phone Number</label>
+                                <input type="text" class="form-control" id="lname" name="mPhoneNumber"
+                                    placeholder="Your Phone Number.." required="" pattern="[0][0-9]{20}"
+                                    title="Phone Number should include numbers only and not more than 20 number">
+                            </div>
+                            <div class="form-group"><label for="lname">Mobile Number</label>
+                                <input type="text" class="form-control" id="lname" name="mMobileNumber"
+                                    placeholder="Your Mobile Number.." required="" pattern="[0][0-9]{20}"
+                                    title="Mobile Number should include numbers only and not more than 20 number">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Email</label>
+                                <input id="email" class="form-control" type="text" name="memail"
+                                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required=""
+                                    placeholder="Enter you Email">
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <form>
+                        <Fieldset>
+                            <legend>Emergency Contanct Other Than The Parents</legend>
+                            <div class="form-group">
+                                <label for="lname">Name</label>
+                                <input type="text" class="form-control" id="lname" name="Emergencyname"
+                                    placeholder="Name.." pattern="[a-z]{1,100}"
+                                    title="name should not be more than 100 letters">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Phone Number</label>
+                                <input type="text" class="form-control" id="lname" name="EmergencyPhone"
+                                    placeholder="Phone.." pattern="[0][0-9]{20}"
+                                    title="Phone Number should include numbers only and not more than 20 number">
+                            </div>
+                            <div class="form-group">
+                                <label for="lname">Relationship</label>
+                                <input type="text" class="form-control" id="lname" name="EmergencyRelationship"
+                                    placeholder="Relation to student..">
+                            </div>
+
+                        </Fieldset>
+                    </form>
+                    <form>
+                        <div class="form-group">
+                            <input type="checkbox" id="agree" name="agree" value="agree" required="">
+                            <label for="agree"> I agree to the <a href="#" target="_blank"> Terms of Use</a> and <a
+                                    href="#" target="_blank">Privacy Statement</a>. </label><br>
+                        </div>
+                    </form>
+                    <input id="button-danger" type="submit" class="btn-danger btn" value="Submit">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Start-Footer-->
+    <footer id="Main-Footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <h3>This Website Is Developed By: </h3>
+                    <hr>
+                    <img src="./imgs/11.png" width="246" height="59" alt="Bug League">
+                    <hr>
+                    <p>The Bug League Programming Team continues to make waves in Egypt's tech landscape, their journey
+                        serves as
+                        an inspiration for aspiring programmers and a testament to the growing influence of the country
+                        in the
+                        global technology arena. With their commitment to excellence, innovation, and community
+                        engagement, the Bug
+                        League Programming Team is undoubtedly a rising star in the world of programming.
+                    </p>
+                </div>
+                <div id="Contact" class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <br><br><br>
+                    <h3> Contact Us</h3>
+                    <hr>
+                    <ul class="footer_ul_2">
+                        <img src="./imgs/call-icon.png" alt="Call"><span> Call Now +20 1064234182</span></a></li>
+                        <img src="./imgs/mail-icon.png" alt="Mail"><span> info@nces.edu.eg
+                        </span></a></li>
+                    </ul>
+                    <hr>
+                    <ul class="footer_ul">
+                        <li><a href="https://www.facebook.com/ncesegypt" target="_blank"><img src="./imgs/fb-icon.png"
+                                    alt="Facebook"></a></li>
+                        <li><a href="https://www.instagram.com/ncesegypt/?hl=en" target="_blank"><img
+                                    src="./imgs/instagram-icon.png" alt="Instagram"></a></li>
+                        <li><a href="https://www.linkedin.com/company/new-capital-english-schools-nces/?originalSubdomain=eg"
+                                target="_blank"><img src="./imgs/linkedin-icon.png" alt="Linkedin"></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <br>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.9466801027465!2d31.668060974631526!3d30.038387518859327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1457f594852970d5%3A0xdab002886ee540fd!2sNew%20capital%20English%20school!5e0!3m2!1sen!2seg!4v1706464818646!5m2!1sen!2seg"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <p class="xy"><a href="#Main-Header"><img src="./imgs/arrow_up.png" width="60" height="60"> </a></p>
+        <p class="copyright">2024 All Rights Reserved © Bug League</p>
+    </footer>
+    <!--End-Footer-->
+</body>
+
+</html>
